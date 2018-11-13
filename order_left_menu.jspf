@@ -1,0 +1,65 @@
+<%@ page contentType = "text/html; charset=utf-8" %>
+
+            <div class="col-md-3 left_col menu_fixed">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="home.jsp" class="site_title">
+                            <img src="./build/images/partner6.png" alt="마더앤베이비로고">
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <br />
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <ul class="nav side-menu">
+                                <li>
+                                    <a href="order_dash.jsp">
+                                        주문 대시보드
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="order_consult.jsp?STEP=1">상담/문의</a>
+                                </li>
+                                <li>
+                                    <!--<a href="order_contract_payment.jsp">계약/결제</a>-->
+                                    <a href="order_consult.jsp?STEP=2">계약/결제</a>
+                                </li>
+                                <li>
+                                    <!--<a href="order_service.jsp">서비스</a>-->
+                                    <a href="order_consult.jsp?STEP=3">서비스</a>
+                                </li>
+                                <li>
+                                    <!--<a href="order_service.jsp">서비스</a>-->
+                                    <a href="order_cancel_refund.jsp">주문취소/환불</a>
+                                </li>
+                                <li>
+                                    <a>출산선물
+                                        <span class="fa fa-chevron-down"></span>
+                                    </a>
+                                    <ul class="nav child_menu">
+                                        <li class="sub_menu">
+                                            <!--
+                                            <a href="policy_gifts.jsp">선물/대여품/단말기 관리</a>
+                                            <a href="#!">현황정보</a>
+                                            -->
+                                            <a href="policy_gifts.jsp?TAB=1">현황정보</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a>서비스용품
+                                        <span class="fa fa-chevron-down"></span>
+                                    </a>
+                                    <ul class="nav child_menu">
+                                        <li class="sub_menu">
+                                            <a href="policy_gifts.jsp?TAB=2">현황정보</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar menu -->
+                </div>
+            </div>

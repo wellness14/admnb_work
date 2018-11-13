@@ -1,0 +1,132 @@
+<%@ page contentType = "text/html; charset=utf-8" %>
+
+			<div class="col-md-3 left_col menu_fixed">
+				<div class="left_col scroll-view">
+					<div class="navbar nav_title" style="border: 0;">
+						<a href="home.jsp" class="site_title">
+							<img src="./build/images/partner6.png" alt="마더앤베이비로고">
+						</a>
+					</div>
+					<div class="clearfix"></div>
+					<br />
+					<!-- sidebar menu -->
+					<div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+						<div class="menu_section">
+							<ul class="nav side-menu">
+								<li>
+									<a href="policy_signin.jsp">이용/탈퇴안내</a>
+								</li>
+								<li>
+									<a>약관관리
+										<span class="fa fa-chevron-down"></span>
+									</a>
+									<ul class="nav child_menu">
+										<li class="sub_menu">
+											<a href="policy_terms.jsp?type=terms">서비스 이용약관</a>
+										</li>
+										<li class="sub_menu">
+											<a href="policy_terms.jsp?type=privacy">개인정보취급방침</a>
+										</li>
+										<li class="sub_menu">
+											<a href="policy_terms.jsp?type=email">이메일 무단수집거부</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a>SEO태그
+										<span class="fa fa-chevron-down"></span>
+									</a>
+									<ul class="nav child_menu">
+										<li class="sub_menu">
+											<a href="policy_seo.jsp">공통관리</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a>지사/지역/산후도우미
+										<span class="fa fa-chevron-down"></span>
+									</a>
+									<ul class="nav child_menu">
+										<li class="sub_menu">
+											<a href="policy_branch.jsp">지사관리</a>
+										</li>
+										<li class="sub_menu">
+											<a href="policy_helper.jsp">산후도우미 관리</a>
+										</li>
+										<li class="sub_menu">
+											<a href="policy_manage_location_setting.jsp">지역설정</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a>선물/대여품/단말기
+										<span class="fa fa-chevron-down"></span>
+									</a>
+									<ul class="nav child_menu">
+										<li class="sub_menu">
+											<a href="policy_gifts.jsp">선물/대여품/단말기 관리</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a>서비스 프로그램
+										<span class="fa fa-chevron-down"></span>
+									</a>
+									<ul class="nav child_menu">
+										<li class="sub_menu">
+											<a href="policy_service_option.jsp">서비스 상품/옵션</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a>바우처
+										<span class="fa fa-chevron-down"></span>
+									</a>
+									<ul class="nav child_menu">
+										<li class="sub_menu">
+											<a href="policy_voucher_income.jsp">기준중위소득관리</a>
+										</li>
+										<li class="sub_menu">
+											<a href="policy_voucher_support.jsp">정부지원금 정책</a>
+										</li>
+										<li class="sub_menu">
+											<a href="policy_voucher_regional_policy.jsp">지역별 정책 관리</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a>관리자
+										<span class="fa fa-chevron-down"></span>
+									</a>
+									<ul class="nav child_menu">
+										<li class="sub_menu">
+											<a href="#!">본사관리자</a>
+										</li>
+										<li class="sub_menu">
+											<a href="policy_member_add.jsp">지사계정생성</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- /sidebar menu -->
+			
+					<!-- /menu footer buttons -->
+					<div class="sidebar-footer hidden-small hide">
+						<a data-toggle="tooltip" data-placement="top" title="Settings">
+							<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+						</a>
+						<a data-toggle="tooltip" data-placement="top" title="FullScreen">
+							<span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+						</a>
+						<a data-toggle="tooltip" data-placement="top" title="Lock">
+							<span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+						</a>
+						<a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+							<span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+						</a>
+					</div>
+					<!-- /menu footer buttons -->
+				</div>
+			</div>

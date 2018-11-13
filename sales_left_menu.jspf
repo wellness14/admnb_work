@@ -1,0 +1,174 @@
+<%@ page contentType = "text/html; charset=utf-8" %>
+
+
+            <div class="col-md-3 left_col menu_fixed hide">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="home.jsp" class="site_title">
+                            <img src="./build/images/partner6.png" alt="마더앤베이비로고">
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <br />
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <ul class="nav side-menu">
+                                <li>
+                                    <a href="index.html">
+                                        <i class="fa fa-tachometer"></i> 대시보드
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <i class="fa fa-edit"></i> 주문
+                                        <span class="fa fa-chevron-down"></span>
+                                    </a>
+                                    <ul class="nav child_menu">
+                                        <li>
+                                            <a href="order_dash.html">주문 대시보드</a>
+                                        </li>
+                                        <li>
+                                            <a href="order_consult.html">상담/문의</a>
+                                        </li>
+                                        <li>
+                                            <a href="order_contract_payment.html">계약/결제</a>
+                                        </li>
+                                        <li>
+                                            <a href="order_service_now.html">서비스</a>
+                                        </li>
+                                        <li>
+                                            <a>출산선물
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="#!">현황정보</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>서비스용품
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="#!">현황정보</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a>
+                                        <i class="fa fa-cog"></i> 기본정책
+                                        <span class="fa fa-chevron-down"></span>
+                                    </a>
+                                    <ul class="nav child_menu">
+                                        <!-- <li>
+                                            <a href="#!">기본정책 대시보드</a>
+                                        </li> -->
+                                        <li>
+                                            <a href="policy_in_out.html">이용/탈퇴안내</a>
+                                        </li>
+                                        <li>
+                                            <a>약관관리
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="policy_use_agree.html">서비스 이용약관</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_private_agree.html">개인정보취급방침</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_email_agree.html">이메일 무단수집거부</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li>
+                                            <a>SEO태그
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="policy_seo_common.html">공통관리</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>지사/지역/산후도우미
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="policy_manage_jisa.html">지사관리</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_manage_helper.html">산후도우미 관리</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_manage_location_setting.html">지역설정</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>선물/대여품/단말기
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="policy_manage_gift.html">선물/대여품/단말기 관리</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>서비스 프로그램
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="policy_service.html">서비스 상품/옵션</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>바우처
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="policy_voucher_income.html">기준중위소득관리</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_voucher_support.html">정부지원금 정책</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_voucher_location.html">지역별 정책 관리</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>관리자
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="#!">본사관리자</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_jisa_account_regist.html">지사계정생성</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar menu -->
+                </div>
+            </div>

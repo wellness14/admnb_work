@@ -1,0 +1,370 @@
+<%@ page contentType = "text/html; charset=utf-8" %>
+
+            <div class="col-md-3 left_col menu_fixed hide">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="home.jsp" class="site_title">
+                            <img src="./build/images/partner6.png" alt="마더앤베이비로고">
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <br />
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <ul class="nav side-menu">
+                                <li>
+                                    <a href="home.jsp">
+                                        <i class="fa fa-tachometer"></i> 대시보드
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <i class="fa fa-edit"></i> 주문
+                                        <span class="fa fa-chevron-down"></span>
+                                    </a>
+                                    <ul class="nav child_menu">
+                                        <li>
+                                            <a href="order_dash.html">주문 대시보드</a>
+                                        </li>
+                                        <li>
+                                            <a href="order_consult.html">상담/문의</a>
+                                        </li>
+                                        <li>
+                                            <a href="order_contract_payment.html">계약/결제</a>
+                                        </li>
+                                        <li>
+                                            <a href="order_service_now.html">서비스</a>
+                                        </li>
+                                        <li>
+                                            <a>출산선물
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="#!">현황정보</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>서비스용품
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="#!">현황정보</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a>
+                                        <i class="fa fa-cog"></i> 기본정책
+                                        <span class="fa fa-chevron-down"></span>
+                                    </a>
+                                    <ul class="nav child_menu">
+                                        <!-- <li>
+                                            <a href="#!">기본정책 대시보드</a>
+                                        </li> -->
+                                        <li>
+                                            <a href="policy_in_out.html">이용/탈퇴안내</a>
+                                        </li>
+                                        <li>
+                                            <a>약관관리
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="policy_use_agree.html">서비스 이용약관</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_private_agree.html">개인정보취급방침</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_email_agree.html">이메일 무단수집거부</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li>
+                                            <a>SEO태그
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="policy_seo_common.html">공통관리</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>지사/지역/산후도우미
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="policy_manage_jisa.html">지사관리</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_manage_helper.html">산후도우미 관리</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_manage_location_setting.html">지역설정</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>선물/대여품/단말기
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="policy_manage_gift.html">선물/대여품/단말기 관리</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>서비스 프로그램
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="policy_service.html">서비스 상품/옵션</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>바우처
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="policy_voucher_income.html">기준중위소득관리</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_voucher_support.html">정부지원금 정책</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_voucher_location.html">지역별 정책 관리</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>관리자
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu">
+                                                    <a href="#!">본사관리자</a>
+                                                </li>
+                                                <li class="sub_menu">
+                                                    <a href="policy_jisa_account_regist.html">지사계정생성</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar menu -->
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav main_top">
+                <div class="nav_menu first">
+                    <nav>
+                        <div class="nav toggle">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="이름, ID, 휴대번호">
+                                <span class="input-group-btn">
+                                    <button type="button" class="btn btn-primary btn-sm">검색</button>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <!-- 로그인 유저 확인 및 로그아웃 -->
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <%= _user._business %> 접속중
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li>
+                                        <a href="_logout.jsp">
+                                            <i class="fa fa-sign-out pull-right"></i> 로그아웃</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- 자주 쓰는 메뉴 -->
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
+                                    자주쓰는메뉴
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right  favorite-menu-list">
+                                    <li>
+                                        <a href="#!" data-toggle="modal" data-target=".favorite-menu">
+                                            <i class="fa fa-cog pull-right"></i> 메뉴설정</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">
+                                            자주쓰는 메뉴를 설정해주세요.
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="fa fa-star"></i> 주문 / 상담문의 </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="fa fa-star"></i> 기본정책 / 지사,지역,산후도우미 / 산후도우미 관리</a>
+                                    </li>
+                                </ul>
+                                <!-- 자주쓰는 메뉴 설정 팝업 -->
+                                <div class="modal fade bs-example-modal-lg favorite-menu" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">
+                                                    <span aria-hidden="true">×</span>
+                                                </button>
+                                                <h4 class="modal-title" id="myModalLabel">자주쓰는 메뉴 설정</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="form-group">
+                                                        <div class="row">
+                                                            <label class="control-label col-md-2 col-sm-2 col-xs-12">메뉴선택</label>
+                                                        <div class="col-md-3 col-sm-3 col-xs-12">
+                                                            <select class="select2_multiple form-control" multiple="multiple">
+                                                                <option>대메뉴</option>
+                                                                <option>Option one</option>
+                                                                <option>Option two</option>
+                                                                <option>Option three</option>
+                                                                <option>Option four</option>
+                                                                <option>Option five</option>
+                                                                <option>Option six</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-3 col-xs-12">
+                                                            <select class="select2_multiple form-control" multiple="multiple">
+                                                                <option>중메뉴</option>
+                                                                <option>Option one</option>
+                                                                <option>Option two</option>
+                                                                <option>Option three</option>
+                                                                <option>Option four</option>
+                                                                <option>Option five</option>
+                                                                <option>Option six</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-3 col-xs-12">
+                                                            <select class="select2_multiple form-control" multiple="multiple">
+                                                                <option>페이지 선택</option>
+                                                                <option>Option one</option>
+                                                                <option>Option two</option>
+                                                                <option>Option three</option>
+                                                                <option>Option four</option>
+                                                                <option>Option five</option>
+                                                                <option>Option six</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-md-1 col-sm-1 col-xs-12">
+                                                            <a href="#!" class="btn btn-primary btn-sm">선택</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <label class="control-label col-md-2 col-sm-2 col-xs-12">자주쓰는 메뉴<br/> <small> ( 0 / 10  선택)</small></label>
+                                                    <div class="col-md-10 col-sm-10">
+                                                        <p>자주쓰는 메뉴를 선택해 주세요. (최대10개)</p>
+                                                        <p>주문 / 출산선물 / 현황정보 <a href="#!" class="btn btn-danger btn-xs btn-mb-0">삭제</a></p>
+                                                        <p>주문 / 출산선물 / 현황정보 <a href="#!" class="btn btn-danger btn-xs btn-mb-0">삭제</a></p>
+                                                        <p>주문 / 출산선물 / 현황정보 <a href="#!" class="btn btn-danger btn-xs btn-mb-0">삭제</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">닫기</button>
+                                                <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">저장</button>
+                                            </div>
+                                
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 자주쓰는 메뉴 설정 팝업 -->
+                            </li>
+                            <!-- 주문현황 -->
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    주문현황
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li>
+                                        <a href="#!">
+                                            입금대기
+                                            <span class="badge bg-orange">6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">
+                                            입금완료
+                                            <span class="badge bg-green">6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">
+                                            계약취소신청
+                                            <span class="badge bg-red">6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">
+                                            환불완료
+                                            <span class="badge bg-blue">6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">
+                                            서비스대기
+                                            <span class="badge bg-orange">6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">
+                                            서비스 중
+                                            <span class="badge bg-blue-sky">6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">
+                                            서비스 연장
+                                            <span class="badge bg-purple">6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">
+                                            서비스 완료
+                                            <span class="badge bg-green">6</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="nav_menu second">
+                    <a href="home.jsp" class="btn btn-primary btn-sm">Home</a>
+                    <a href="order_dash.jsp" class="btn btn-default btn-sm">주문</a>
+                    <a href="policy_signin.jsp" class="btn btn-default btn-sm">기본정책</a>
+                    <a href="sales.jsp" class="btn btn-default btn-sm">매출통계</a>
+                </div>
+            </div>
+            <!-- /top navigation -->
+
